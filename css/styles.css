@@ -30,7 +30,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-text-cl);
-  background-color: var (--white-text-cl);
+  background-color: #ffffff;
 }
 
 /* Header section - Navigation */
@@ -156,4 +156,9 @@ body {
 
 .logo-footer {
   color: var(--cloud-text-cl);
+}
+
+/* Portfolio */
+.cards-item-link {
+  text-decoration: none;
 }
