@@ -72,8 +72,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-text-cl);
-}
-.adress {
   font-style: normal;
 }
 
@@ -161,4 +159,18 @@ body {
 /* Portfolio */
 .cards-item-link {
   text-decoration: none;
+}
+.cards-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-text-cl);
+}
+.cards-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-text-cl);
 }
