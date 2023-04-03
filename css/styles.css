@@ -1,9 +1,6 @@
 :root {
-  /* font */
   --primary-font: Roboto, sans-serif;
   --logo-front: Raleway, sans-serif;
-
-  /* colors */
   --iris-text-cl: #4d5ae5;
   --ocean-text-cl: #404bbf;
   --navy-blue-text-cl: #2e2f42;
@@ -33,6 +30,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-text-cl);
+  background-color: var (--white-text-cl);
 }
 
 /* Header section - Navigation */
@@ -44,11 +42,9 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.logo-part-first {
   color: var(--iris-text-cl);
 }
-.logo-part-two-header {
+.logo-header {
   color: var(--navy-blue-text-cl);
 }
 .header-item {
@@ -77,6 +73,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate-text-cl);
 }
+.adress {
+  font-style: normal;
+}
 
 /* Hero section */
 
@@ -90,6 +89,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white-text-cl);
+  text-align: center;
 }
 
 /* Button */
@@ -127,27 +127,33 @@ body {
   color: var(--slate-text-cl);
 }
 
-.header-3 {
+.header-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue-text-cl);
 }
-.header-2 {
+.header-two {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue-text-cl);
+  text-align: center;
 }
 .cards-item {
   background-color: var(--white-text-cl);
 }
 
+/* Team section */
+.page-team {
+  background-color: var(--cloud-text-cl);
+}
+
 /* Footer section */
 
-.logo-part-two-footer {
+.logo-footer {
   color: var(--cloud-text-cl);
 }
